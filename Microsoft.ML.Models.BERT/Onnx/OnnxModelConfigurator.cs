@@ -1,6 +1,4 @@
-﻿using Microsoft.ML;
-using Microsoft.ML.Models.BERT.Onnx;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace Microsoft.ML.Models.BERT.Onnx
 {

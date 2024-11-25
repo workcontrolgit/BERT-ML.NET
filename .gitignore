@@ -9,3 +9,5 @@
 
 /BERT.Console/bin
 /BERT.Console/obj
+/BERT.WebApi/Model/bertsquad-10.onnx
+/BERT.WebApi/Model/bertsquad-10.onnx

@@ -1,9 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="7.0.0" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Microsoft.ML.Models.BERT\Microsoft.ML.Models.BERT.csproj" />
